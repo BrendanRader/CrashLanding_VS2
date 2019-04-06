@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wires
+  m_Name: Door
   m_Shader: {fileID: 4800000, guid: 47b96631bd1bb884cbcc1481f6f67d6e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -71,21 +71,21 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LitOffset: 0.25
+    - _LitOffset: 0.07
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineThickness: 1
+    - _OutlineThickness: 0.3
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _SpecPower: 20
-    - _SpecScale: 1
+    - _SpecPower: 4
+    - _SpecScale: 0.7
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.26415092, g: 0.16429937, b: 0, a: 1}
+    - _Color: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SSSColor: {r: 1, g: 1, b: 1, a: 1}

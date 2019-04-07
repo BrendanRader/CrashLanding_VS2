@@ -1,15 +1,16 @@
 fileFormatVersion: 2
-guid: 34243747930577a4bb10404f0dfd4be1
+guid: b38b2c553ab64614c922735b37676d30
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: TopAndBottom
-    2100002: Label
+    2100000: computer_main
+    2100002: computer_screens
+    2100004: computer_keyboards
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCylinder2
+    4300000: computer
     6400000: //RootNode
   externalObjects: {}
   materials:

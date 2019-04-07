@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 34243747930577a4bb10404f0dfd4be1
+guid: c7186adebba45254a933d8f2b7696a2f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: TopAndBottom
-    2100002: Label
+    2100000: crate_main
+    2100002: crate_latch
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCylinder2
+    4300000: crate
     6400000: //RootNode
   externalObjects: {}
   materials:

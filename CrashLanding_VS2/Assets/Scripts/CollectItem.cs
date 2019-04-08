@@ -13,7 +13,7 @@ public class CollectItem : MonoBehaviour {
     void Awake() {
         collected++;
         doorOpen = false;
-        animator = GetComponent<Animator>();
+        animator = GameObject.Find("DoorParent").GetComponent<Animator>();
     }
 
     void OnTriggerEnter(Collider plyr) {

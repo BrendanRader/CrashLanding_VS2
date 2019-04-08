@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 889a0f38c2f3d7442a250c05605214e5
+guid: ae1396f93bb3964499451dee8b960780
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: gun1
-    2100002: gun1_point
-    2100004: gun1_details
+    2100000: grip_mat
+    2100002: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: gun_1
-    6400000: //RootNode
+    4300000: pCylinder1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,9 +41,9 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 16
+    globalScale: 128
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1

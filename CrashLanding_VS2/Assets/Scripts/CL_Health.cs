@@ -9,7 +9,7 @@ public class CL_Health : MonoBehaviour
     private int startHealth = 5;
 
     //keep track of current health
-    private int currentHealth;
+    public int currentHealth;
 
     //reset health when enabled
     private void OnEnable()

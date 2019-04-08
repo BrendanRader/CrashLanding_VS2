@@ -5,10 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void PlayGame()
+    private AudioSource source;
+    public AudioClip continueClip;
+    private float volLowRange = .5f;
+    private float volHighRange = 1.0f;
+
+    void Awake()
+    {
+       source = GetComponent<AudioSource>();
+    }
+
+    void Update()
+    {
+       if (Input.GetKey("escape"))
+            Application.Quit();
+    }
+
+    public void PlayGame()
     {
         SceneManager.LoadScene("Level1");
         Debug.Log("Loading Level1...");
+        source.PlayOneShot(continueClip);
     }
 
     public void QuitGame()
@@ -21,17 +38,20 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("HowtoplayAlien");
         Debug.Log("Going to game instructions...");
+        source.PlayOneShot(continueClip);
     }
 
     public void PlayerObjectives()
     {
         SceneManager.LoadScene("PlayerObjectives");
         Debug.Log("Going to player objectives...");
+        source.PlayOneShot(continueClip);
     }
 
     public void WinLoseConditions()
     {
         SceneManager.LoadScene("WinLoseConditions");
         Debug.Log("Going to the Win/Lose conditions...");
+        source.PlayOneShot(continueClip);
     }
 }

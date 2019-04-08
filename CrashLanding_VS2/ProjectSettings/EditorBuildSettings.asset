@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 3167c5e41585d2f4b88a3239f240eec1
+  - enabled: 1
+    path: Assets/Scenes/WinLoseConditions.unity
+    guid: d7a016e84482d47469c1c267a7f91b92
+  - enabled: 1
+    path: Assets/Scenes/PlayerObjectives.unity
+    guid: 37d3a6afda8e2b64fa8663ba90488257
+  - enabled: 1
+    path: Assets/Scenes/HowtoplayCamera.unity
+    guid: 7311f4e7a90229541b4ab60577038f89
+  - enabled: 1
+    path: Assets/Scenes/HowtoplayAlien.unity
+    guid: 007b789b06a546f4ca4dd1ea508a47f2
   m_configObjects: {}

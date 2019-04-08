@@ -1,31 +1,42 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Inventory : MonoBehaviour {
+public class Inventory : MonoBehaviour
+{
+    public static bool InventoryIsActive = false;
 
-  public static Inventory instance;
+    public GameObject InventoryUI;
 
-  public delegate void OnItemChanged();
-  public OnItemChanged onItemChangedCallback;
 
-  void Awake (){
-    if (instance != null){
-      Debug.LogWarning("More than one instance of Inventory found!");
-      return;
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if (InventoryIsActive)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
     }
 
-    instance = this;
-  }
+    public void Resume()
+    {
+        InventoryUI.SetActive(false);
+        Time.timeScale = 1f;
+        InventoryIsActive = false;
+    }
 
-  public List<Item> items = new List<Item>();
-
-  public void Add (Item item){
-
-    items.Add(item);
-
-    if(onItemChangedCallback != null)
-      onItemChangedCallback.Invoke();
-  }
-
+    void Pause()
+    {
+        InventoryUI.SetActive(true);
+        Time.timeScale = 0f;
+        InventoryIsActive = true;
+    }
 }

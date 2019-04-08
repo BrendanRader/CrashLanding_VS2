@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Mac3
   m_EditorClassIdentifier: 
   itemName: Mac3
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5221fb330351f5b41a0978ea952ba1ac, type: 3}

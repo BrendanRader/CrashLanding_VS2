@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private CharacterController characterController;
-    private Animator animator;
+    //private Animator animator;
 
     [SerializeField]
     private float moveSpeed = 10;
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        animator = GetComponentInChildren<Animator>();
+        //animator = GetComponentInChildren<Animator>();
     }
 
 
@@ -28,19 +28,19 @@ public class PlayerMovement : MonoBehaviour
 
         var movement = new Vector3(horizontal, 0, vertical);
 
-        animator.SetFloat("Speed", vertical);
+        //animator.SetFloat("Speed", vertical);
 
-        characterController.SimpleMove(movement * Time.deltaTime * moveSpeed);
+        //characterController.SimpleMove(movement * Time.deltaTime * moveSpeed);
 
         transform.Rotate(Vector3.up, horizontal * turnSpeed * Time.deltaTime);
 
-        
+        /*
         if (movement.magnitude > 0)
         {
             Quaternion newDirection = Quaternion.LookRotation(movement);
             transform.rotation = Quaternion.Slerp(transform.rotation, newDirection, Time.deltaTime * turnSpeed);
         }
-       
+       */
 
         if (vertical !=0)
         {

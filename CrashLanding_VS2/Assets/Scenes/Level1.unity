@@ -1800,7 +1800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71c3d4b8eca2134f89b16af8f5cf639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSensitivity: 35
+  RotationSensitivity: 70
   yMinAngle: -40
   yMaxAngle: 75
   xMinAngle: 70
@@ -5661,7 +5661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71c3d4b8eca2134f89b16af8f5cf639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSensitivity: 35
+  RotationSensitivity: 70
   yMinAngle: -45
   yMaxAngle: 60
   xMinAngle: -90

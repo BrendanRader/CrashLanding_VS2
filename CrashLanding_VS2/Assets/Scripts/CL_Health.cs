@@ -5,8 +5,7 @@ using UnityEngine;
 public class CL_Health : MonoBehaviour
 {
     //starting health
-    [SerializeField]
-    private int startHealth = 5;
+    public int startHealth = 100;
 
     //keep track of current health
     public int currentHealth;

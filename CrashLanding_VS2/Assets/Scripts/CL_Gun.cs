@@ -40,7 +40,7 @@ public class CL_Gun : MonoBehaviour
 
         if (Physics.Raycast(ray, out hitInfo, 100)) //100 is max distance in meters
         {
-            var health = hitInfo.collider.GetComponent<CL_Health>(); //calls health script
+            var health = hitInfo.collider.GetComponent<CL_EnemyHealth>(); //calls health script
             if (health != null)
                 health.TakeDamage(damage);
         }

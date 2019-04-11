@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class CL_Health : MonoBehaviour
+public class CL_PlayerHealth : MonoBehaviour
 {
     //starting health
     public int startHealth = 100;
@@ -10,10 +11,13 @@ public class CL_Health : MonoBehaviour
     //keep track of current health
     public int currentHealth;
 
+    public Slider HealthBar;
+
     //reset health when enabled
     private void OnEnable()
     {
         currentHealth = startHealth;
+        HealthBar.value = startHealth;
     }
 
     //Method to take damage
@@ -21,6 +25,7 @@ public class CL_Health : MonoBehaviour
     {
         //Subtract damage taken from current health
         currentHealth -= damageAmount;
+        HealthBar.value = currentHealth;
 
         if (currentHealth <= 0)
             Die();
@@ -30,10 +35,4 @@ public class CL_Health : MonoBehaviour
     {
         gameObject.SetActive(false); // disables game object
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-}
+  }

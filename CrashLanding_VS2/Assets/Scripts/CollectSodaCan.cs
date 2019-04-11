@@ -15,7 +15,7 @@ public class CollectSodaCan : MonoBehaviour {
         if (plyr.gameObject.tag == "Player"){
             sodaCans--;
             Destroy(gameObject);
-            GameObject.Find("Player").GetComponent<CL_Health>().currentHealth = GameObject.Find("Player").GetComponent<CL_Health>().startHealth;
+            GameObject.Find("Player").GetComponent<CL_PlayerHealth>().currentHealth = GameObject.Find("Player").GetComponent<CL_PlayerHealth>().startHealth;
         }
     }
 }

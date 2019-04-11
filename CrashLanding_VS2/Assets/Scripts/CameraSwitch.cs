@@ -42,9 +42,17 @@ public class CameraSwitch : MonoBehaviour
     }
 
     //Change Camera Keyboard
-    void switchCamera()
+    /*void switchCamera()
     {
         if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.RightAlt))
+        {
+            cameraChangeCounter();
+        }
+    }*/
+
+    void switchCamera()
+    {
+        if (Input.GetButtonDown("Camera"))
         {
             cameraChangeCounter();
         }

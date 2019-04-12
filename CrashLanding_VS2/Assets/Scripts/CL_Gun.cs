@@ -5,8 +5,8 @@ using UnityEngine;
 public class CL_Gun : MonoBehaviour
 {
     [SerializeField]
-    [Range(0.5f, 1.5f)]
-    private float fireRate = 1;
+    [Range(0.1f, 1.5f)]
+    private float fireRate = 0.3f;
 
     [SerializeField]
     [Range(1, 10)]
@@ -15,6 +15,12 @@ public class CL_Gun : MonoBehaviour
     //Origin of firing
     [SerializeField]
     private Transform firePoint;
+
+    [SerializeField]
+    private ParticleSystem muzzleParticle;
+
+    //[SerializeField]
+   // private AudioSource gunFireSource;
 
     private float timer;
 
@@ -35,7 +41,11 @@ public class CL_Gun : MonoBehaviour
   
     private void FireGun()
     {
-        Debug.DrawRay(firePoint.position, firePoint.forward * 100, Color.red, 2f);
+        //Debug.DrawRay(firePoint.position, firePoint.forward * 100, Color.red, 2f);
+
+        muzzleParticle.Play();
+        //gunFireSource.Play();
+
         Ray ray = new Ray(firePoint.position, firePoint.forward);
         RaycastHit hitInfo;
 

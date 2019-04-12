@@ -24,7 +24,7 @@ public class CL_Gun : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= fireRate)
         {
-            if (Input.GetButton("Fire1"))
+            if (Input.GetButton("Fire1") || Input.GetAxis("Fire1") !=0)
             {
                 timer = 0f;
                 FireGun();
@@ -32,6 +32,7 @@ public class CL_Gun : MonoBehaviour
         }
     }
 
+  
     private void FireGun()
     {
         Debug.DrawRay(firePoint.position, firePoint.forward * 100, Color.red, 2f);

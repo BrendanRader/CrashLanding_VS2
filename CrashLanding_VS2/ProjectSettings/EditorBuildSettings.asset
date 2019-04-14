@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HowtoplayAlien.unity
     guid: 007b789b06a546f4ca4dd1ea508a47f2
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 165aa17c1a3ae374894ef1fa95a5b4f8
   m_configObjects: {}

@@ -28,6 +28,13 @@ public class MainMenu : MonoBehaviour
         source.PlayOneShot(continueClip);
     }
 
+    public void Options()
+    {
+        SceneManager.LoadScene("Options");
+        Debug.Log("Going to the options...");
+        source.PlayOneShot(continueClip);
+    }
+
     public void QuitGame()
     {
         Debug.Log("The game is quitting...");

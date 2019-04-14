@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+<<<<<<< HEAD
+  - PlayerAI
+=======
+  - Patrol Guard
+>>>>>>> 7e96d0d01b63084fe82b873518ae69da805f39a8
   layers:
   - Default
   - TransparentFX

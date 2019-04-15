@@ -11619,7 +11619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &534669903
 AudioListener:
   m_ObjectHideFlags: 0
@@ -12206,7 +12206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &676110196
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13308,7 +13308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraOne: {fileID: 631384207}
   cameraTwo: {fileID: 2074195977}
-  cameraThree: {fileID: 0}
+  cameraThree: {fileID: 205595259}
   cameraFour: {fileID: 0}
   cameraFive: {fileID: 0}
   cameraSix: {fileID: 0}

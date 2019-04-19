@@ -14,6 +14,7 @@ public class CollectItem : MonoBehaviour {
         collected++;
         doorOpen = false;
         animator = GameObject.Find("DoorParent").GetComponent<Animator>();
+    
     }
 
     void OnTriggerEnter(Collider plyr) {

@@ -11197,7 +11197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &403013961
@@ -18801,7 +18801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.34
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18809,7 +18809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.74
       objectReference: {fileID: 0}
     - target: {fileID: 400094, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -18845,7 +18845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.47
+      value: 3.92
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19165,9 +19165,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269193139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe4cc04385078e74d87dc91b945d0be6, type: 3}
+  m_Script: {fileID: 11500000, guid: 07442a6192002004a8d69c4039ae9312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1707459758}
 --- !u!195 &1269193144
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -19190,19 +19191,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!135 &1269193145
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269193139}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.3570366
-  m_Center: {x: -0.00000001879842, y: 1.4627562, z: 2.08491}
 --- !u!1001 &1277282745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20243,7 +20231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501946162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.83, y: 0, z: -1.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1707459758}

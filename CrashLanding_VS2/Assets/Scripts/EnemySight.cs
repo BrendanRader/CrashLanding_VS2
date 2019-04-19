@@ -1,26 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class EnemySight : MonoBehaviour
 {
-    GameObject player;
-    NavMeshAgent enemy;
 
+    public Transform player;
+
+    // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        enemy = GetComponent<NavMeshAgent>();
+        
     }
 
-    void OnCollisionEnter(Collision col)
+    // Update is called once per frame
+    void Update()
     {
-        if (col.gameObject.name == "Player")
+       if(Vector3.Distance(player.position, this.transform.position) < 8)
         {
-            enemy.destination = player.transform.position;
-            Debug.Log("I see you");
-            print (col.collider.name);
+            Vector3 direction = player.position - this.transform.position;
+            direction.y = 0;
+
+            this.transform.rotation = Quaternion.Slerp(this.transform.rotation,
+                                        Quaternion.LookRotation(direction), 0.1f);
+
+            if(direction.magnitude > 2)
+            {
+                this.transform.Translate(0, 0, 0.05f);
+            }
         }
     }
 }

@@ -18845,7 +18845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.92
+      value: 11.66
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 84a35120b9d97c94197ad9e841d98a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19191,6 +19191,12 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!4 &1269193147 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 0ef5a6e463e82664aaf8e0b4974bcd93,
+    type: 3}
+  m_PrefabInstance: {fileID: 820912840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1277282745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20153,6 +20159,8 @@ GameObject:
   - component: {fileID: 1501946163}
   - component: {fileID: 1501946164}
   - component: {fileID: 1501946168}
+  - component: {fileID: 1501946169}
+  - component: {fileID: 1501946170}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -20231,7 +20239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501946162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.83, y: 0, z: -1.62}
+  m_LocalPosition: {x: 3.1, y: -0.04, z: -1.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1707459758}
@@ -20253,6 +20261,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+--- !u!114 &1501946169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501946162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a1ed91ef4d0e440a06bc1c4084c32f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1269193147}
+--- !u!136 &1501946170
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501946162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.39793396
+  m_Height: 2.7726216
+  m_Direction: 1
+  m_Center: {x: -3.41, y: 1.56, z: 1.8800001}
 --- !u!1 &1505328352
 GameObject:
   m_ObjectHideFlags: 0

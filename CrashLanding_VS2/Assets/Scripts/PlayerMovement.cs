@@ -14,6 +14,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float turnSpeed = 100f;
 
+    [SerializeField]
+    private float verticalVelocity;
+
+    [SerializeField]
+    private float gravity = 14.0f;
+
+    [SerializeField]
+    private float jumpForce = 10.0f;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -26,6 +35,19 @@ public class PlayerMovement : MonoBehaviour
         var horizontal = Input.GetAxis("Horizontal");
         var vertical = Input.GetAxis("Vertical");
 
+        if (characterController.isGrounded)
+        {
+            verticalVelocity = -gravity * Time.deltaTime;
+            if (Input.GetButtonDown("Jump"))
+            {
+                verticalVelocity = jumpForce;
+            }
+        }
+        else
+        {
+            verticalVelocity -= gravity * Time.deltaTime;
+        }
+
         var movement = new Vector3(horizontal, 0, vertical);
 
         //animator.SetFloat("Speed", vertical);
@@ -33,6 +55,10 @@ public class PlayerMovement : MonoBehaviour
         //characterController.SimpleMove(movement * Time.deltaTime * moveSpeed);
 
         transform.Rotate(Vector3.up, horizontal * turnSpeed * Time.deltaTime);
+
+        Vector3 moveVector = new Vector3(0, verticalVelocity, 0);
+
+        characterController.Move(moveVector * Time.deltaTime);
 
         /*
         if (movement.magnitude > 0)

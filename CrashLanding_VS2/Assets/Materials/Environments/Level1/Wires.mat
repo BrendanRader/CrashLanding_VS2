@@ -75,11 +75,11 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineThickness: 1
+    - _OutlineThickness: 5
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _SpecPower: 20
-    - _SpecScale: 1
+    - _SpecPower: 31
+    - _SpecScale: 4.6
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0

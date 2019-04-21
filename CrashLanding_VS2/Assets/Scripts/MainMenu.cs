@@ -61,4 +61,11 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Going to the Win/Lose conditions...");
         source.PlayOneShot(continueClip);
     }
+
+    public void Scoreboard()
+    {
+        SceneManager.LoadScene("Scoreboard");
+        Debug.Log("Loading Scoreboard 1...");
+        source.PlayOneShot(continueClip);
+    }
 }

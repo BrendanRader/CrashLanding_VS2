@@ -7,7 +7,7 @@ public class WinScreen : MonoBehaviour
 {
 
   public GameObject WinCanvas;
-  public GameObject scoreboardUI;
+  public GameObject WinScreenUI;
 
     // Start is called before the first frame update
     void Awake() {
@@ -17,7 +17,7 @@ public class WinScreen : MonoBehaviour
     void OnTriggerEnter(Collider plyr){
       if (plyr.gameObject.tag == "Player"){
         WinCanvas.SetActive(true);
-        scoreboardUI.SetActive(true);
+        WinScreenUI.SetActive(true);
         Time.timeScale = 0f;
     }
   }

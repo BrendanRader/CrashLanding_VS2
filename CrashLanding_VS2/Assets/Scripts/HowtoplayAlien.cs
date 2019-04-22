@@ -13,7 +13,7 @@ public class HowtoplayAlien : MonoBehaviour
 
     public void NextGame()
     {
-        SceneManager.LoadScene("HowtoplayCamera");
+        SceneManager.LoadScene("PlayerObjectives");
         Debug.Log("Going to next page...");
     }
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5497,8 +5497,8 @@ GameObject:
   - component: {fileID: 251585619}
   - component: {fileID: 251585620}
   - component: {fileID: 251585618}
-  - component: {fileID: 251585621}
   - component: {fileID: 251585622}
+  - component: {fileID: 251585621}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5656,8 +5656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78daae1711e97e46a0d9276f0b4e26a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinCanvas: {fileID: 251585612}
-  WinScreenUI: {fileID: 1290333987}
+  WinCanvas: {fileID: 1290333987}
 --- !u!114 &251585622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10637,10 +10636,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 423055117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e1be95bd494d8e40b6eae2ce1aa9471, type: 3}
+  m_Script: {fileID: 11500000, guid: 17399acd54e33ad489f924b807f6b8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 0f2f9a26800cfa04c886cb59155be0b8, type: 2}
+  WinCollider: {fileID: 0}
 --- !u!54 &423055119
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11825,7 +11825,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WinCanvas: {fileID: 251585612}
-  WinScreenUI: {fileID: 1290333987}
 --- !u!54 &671521613
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12246,10 +12245,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400092, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11.37
-      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -12286,6 +12281,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[8]
       value: 
       objectReference: {fileID: 2100000, guid: cd62b0c17bd1de44eb21ac4f5628cb79, type: 2}
+    - target: {fileID: 400092, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.37
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
 --- !u!1 &843025199 stripped

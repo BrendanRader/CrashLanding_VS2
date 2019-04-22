@@ -19,7 +19,7 @@ public class CameraClamp : MonoBehaviour
     void Update()
     {
         //Rotate Y view
-        /* yRotate += Input.GetAxis("Mouse Y") * RotationSensitivity * Time.deltaTime;
+         yRotate += Input.GetAxis("Mouse Y") * RotationSensitivity * Time.deltaTime;
          yRotate = Mathf.Clamp(yRotate, yMinAngle, yMaxAngle);
          transform.eulerAngles = new Vector3(yRotate, xRotate, 0.0f);
 
@@ -27,8 +27,9 @@ public class CameraClamp : MonoBehaviour
          xRotate += Input.GetAxis("Mouse X") * RotationSensitivity * Time.deltaTime;
          xRotate = Mathf.Clamp(xRotate, xMinAngle, xMaxAngle);
          transform.eulerAngles = new Vector3(yRotate, xRotate, 0.0f);
-         */
+         
 
+        /*
          //Rotate Y view
          yRotate += Input.GetAxis("CameraRotateY") * RotationSensitivity * Time.deltaTime;
          yRotate = Mathf.Clamp(yRotate, yMinAngle, yMaxAngle);
@@ -39,7 +40,7 @@ public class CameraClamp : MonoBehaviour
          xRotate += Input.GetAxis("CameraRotateX") * RotationSensitivity * Time.deltaTime;
          xRotate = Mathf.Clamp(xRotate, xMinAngle, xMaxAngle);
          transform.eulerAngles = new Vector3(yRotate, xRotate, 0.0f);
-       
+       */
        
     }
 }

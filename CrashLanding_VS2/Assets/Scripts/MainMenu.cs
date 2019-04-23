@@ -82,4 +82,11 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Loading Level 3...");
         source.PlayOneShot(continueClip);
     }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+        Debug.Log("Loading Credits...");
+        source.PlayOneShot(continueClip);
+    }
 }

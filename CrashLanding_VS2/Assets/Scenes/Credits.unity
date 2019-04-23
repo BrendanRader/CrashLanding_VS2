@@ -228,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &24909363
 RectTransform:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &460908706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -488,7 +488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: 147}
+  m_AnchoredPosition: {x: -226.5, y: 123}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518098939
@@ -518,13 +518,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Win
+  m_Text: "Brendan Rader\t\t\tEnvironmental Artist\r\nJamie Cheaw\t\t\tConcept Artist/Texture
+    Artist\r\nMariana Lobeto\t\t\tAnimator\r\nEric Sarver\t\t\t\tConcept Artist/Coder\r\nEmily
+    Liberaski\t\t\tProp Artist\r\nAmanda Di Massino\tCharacter Artist"
 --- !u!222 &518098940
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -603,7 +605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Win/Lose Conditions
+  m_Text: Crash Landing
 --- !u!222 &1072860978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -669,7 +671,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5af1fcbb7b9d36e4e9f8d312525105fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4723dd4dbd299714ca6eaa2564c56d61, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -967,7 +969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1781591858
 RectTransform:
   m_ObjectHideFlags: 0

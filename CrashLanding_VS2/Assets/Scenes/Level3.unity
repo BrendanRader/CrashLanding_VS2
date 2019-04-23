@@ -10841,6 +10841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TEST TRES
       objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400086, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

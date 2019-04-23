@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12667,8 +12667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78daae1711e97e46a0d9276f0b4e26a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinCanvas: {fileID: 251585612}
-  WinScreenUI: {fileID: 1290333987}
+  WinCanvas: {fileID: 0}
+  WinScreenUI: {fileID: 0}
 --- !u!54 &671521613
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13089,10 +13089,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400092, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11.37
-      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -13129,6 +13125,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[8]
       value: 
       objectReference: {fileID: 2100000, guid: cd62b0c17bd1de44eb21ac4f5628cb79, type: 2}
+    - target: {fileID: 400092, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.37
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef5a6e463e82664aaf8e0b4974bcd93, type: 3}
 --- !u!1 &843025199 stripped
@@ -20522,7 +20522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 100
   currentHealth: 0
-  HealthBar: {fileID: 1454587932}
+  HealthBar: {fileID: 0}
 --- !u!114 &1501946164
 MonoBehaviour:
   m_ObjectHideFlags: 0

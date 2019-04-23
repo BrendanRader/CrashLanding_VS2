@@ -1,19 +1,21 @@
 ﻿using UnityEngine;
 
-public class Bullet : MonoBehaviour {
+public class Bullet : MonoBehaviour
+{
 
     private Transform target;
 
-    public float speed = 70f;
+    public float speed = 10f;
     public GameObject impactEffect;
 
-    public void Seek (Transform _target)
+    public void Seek(Transform _target)
     {
         target = _target;
     }
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update()
+    {
         if (target == null)
         {
             Destroy(gameObject);
@@ -30,10 +32,10 @@ public class Bullet : MonoBehaviour {
         }
 
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
-		
-	}
 
-    void HitTarget ()
+    }
+
+    void HitTarget()
     {
         GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effectIns, 2f);

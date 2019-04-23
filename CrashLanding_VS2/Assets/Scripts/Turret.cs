@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turret : MonoBehaviour {
+public class Turret : MonoBehaviour
+{
 
     private Transform target;
 
@@ -14,7 +15,7 @@ public class Turret : MonoBehaviour {
 
     [Header("Unity Setup Fields")]
 
-    public string enemyTag = "Enemy";
+    public string playerTag = "Player";
 
     public Transform partToRotate;
     public float turnSpeed = 10f;
@@ -22,37 +23,40 @@ public class Turret : MonoBehaviour {
     public GameObject bulletPrefab;
     public Transform firePoint;
 
-	// Use this for initialization
-	void Start () {
-        InvokeRepeating("UpdateTarget", 0f, 0.5f); 
-	}
-
-    void UpdateTarget ()
+    // Use this for initialization
+    void Start()
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
+        InvokeRepeating("UpdateTarget", 0f, 0.5f);
+    }
+
+    void UpdateTarget()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag(playerTag);
         float shortestDistance = Mathf.Infinity;
-        GameObject nearestEnemy = null;
-        foreach (GameObject enemy in enemies)
+        GameObject nearestPlayer = null;
+        foreach (GameObject player in enemies)
         {
-            float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
-            if (distanceToEnemy < shortestDistance)
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer < shortestDistance)
             {
-                shortestDistance = distanceToEnemy;
-                nearestEnemy = enemy;
+                shortestDistance = distanceToPlayer;
+                nearestPlayer = player;
             }
         }
 
-        if (nearestEnemy != null && shortestDistance <= range)
+        if (nearestPlayer != null && shortestDistance <= range)
         {
-            target = nearestEnemy.transform;
-        } else
+            target = nearestPlayer.transform;
+        }
+        else
         {
             target = null;
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         if (target == null)
             return;
 
@@ -60,7 +64,7 @@ public class Turret : MonoBehaviour {
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler (0f, rotation.y, 0f);
+        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
 
         if (fireCountdown <= 0f)
         {
@@ -70,9 +74,9 @@ public class Turret : MonoBehaviour {
 
         fireCountdown -= Time.deltaTime;
 
-	}
+    }
 
-    void Shoot ()
+    void Shoot()
     {
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();

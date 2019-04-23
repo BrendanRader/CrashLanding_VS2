@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -735,17 +735,13 @@ MonoBehaviour:
 
     Walk - Left Joystick
 
-    Run - LT + Left Joystick
-
     Jump - A
 
     Shoot - RT
 
-    Aim - Right Joystick
-
     Switch Camera - LB / RB
 
-    Pan Camera Direction - D Pad'
+    Pan Camera Direction - Right Joystick'
 --- !u!222 &891209221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -907,17 +903,13 @@ MonoBehaviour:
 
     Walk - "WASD" keys
 
-    Run - Shift + any "Walk" key
-
     Jump - Spacebar
 
     Shoot - Left Click
 
-    Aim - Move Mouse
-
     Switch Camera - Q / E
 
-    Pan Camera Direction - Arrow Keys'
+    Pan Camera Direction - Move Mouse'
 --- !u!222 &1274818482
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1288,17 +1280,13 @@ MonoBehaviour:
 
     Walk - "WASD" keys
 
-    Run - Shift + any "Walk" key
-
     Jump - Spacebar
 
     Shoot - Left Click
 
-    Aim - Move Mouse
-
     Switch Camera - Q / E
 
-    Pan Camera Direction - Arrow Keys'
+    Pan Camera Direction - Move Mouse'
 --- !u!222 &1577516052
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1511,17 +1499,13 @@ MonoBehaviour:
 
     Walk - Left Joystick
 
-    Run - LT + Left Joystick
-
     Jump - A
 
     Shoot - RT
 
-    Aim - Right Joystick
-
     Switch Camera - LB / RB
 
-    Pan Camera Direction - D Pad'
+    Pan Camera Direction - Right Joystick'
 --- !u!222 &1768411627
 CanvasRenderer:
   m_ObjectHideFlags: 0

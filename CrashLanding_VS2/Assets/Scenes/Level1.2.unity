@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -40197,6 +40197,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a1fdecc938a4904ba548e4b3f1c9455, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: b35a4e7c0cab4f348a8efdf3fef642ee, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 702cda619782feb4188f1fc0b790f499, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 702cda619782feb4188f1fc0b790f499, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a1fdecc938a4904ba548e4b3f1c9455, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 702cda619782feb4188f1fc0b790f499, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 702cda619782feb4188f1fc0b790f499, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94afda6f0bc17e74c806cc0e0d327975, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: b35a4e7c0cab4f348a8efdf3fef642ee, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15449419155e5924d9442298abfe661d, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22a9271d49d49984d997430cea6ead66, type: 2}
+    - target: {fileID: 2300000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
+      propertyPath: m_Materials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22a9271d49d49984d997430cea6ead66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7006ed6de8727aa4fbffaac7a2d778b8, type: 3}
 --- !u!1 &463327882 stripped
@@ -56072,8 +56120,8 @@ MonoBehaviour:
   moveSpeed: 20
   turnSpeed: 160
   verticalVelocity: 0
-  gravity: 14
-  jumpForce: 10
+  gravity: 20
+  jumpForce: 25
 --- !u!143 &707823019
 CharacterController:
   m_ObjectHideFlags: 0
@@ -56091,7 +56139,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1.78, z: 0}
+  m_Center: {x: 0, y: 2.67, z: 0}
 --- !u!4 &707823020
 Transform:
   m_ObjectHideFlags: 0
@@ -56100,7 +56148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707823014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3, y: 0.28, z: 0.16}
+  m_LocalPosition: {x: -4.3, y: -0.41, z: 0.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1532148300}
@@ -75716,8 +75764,8 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e7d8724c80738694eb3bd0f18b626d60, type: 2}
+  - {fileID: 2100000, guid: e7d8724c80738694eb3bd0f18b626d60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

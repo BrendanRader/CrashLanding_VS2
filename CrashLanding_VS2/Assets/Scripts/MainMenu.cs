@@ -68,4 +68,18 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Loading Scoreboard 1...");
         source.PlayOneShot(continueClip);
     }
+
+    public void LoadLevel2()
+    {
+        SceneManager.LoadScene("Level2");
+        Debug.Log("Loading Level 2...");
+        source.PlayOneShot(continueClip);
+    }
+
+    public void LoadLevel3()
+    {
+        SceneManager.LoadScene("Level3");
+        Debug.Log("Loading Level 3...");
+        source.PlayOneShot(continueClip);
+    }
 }

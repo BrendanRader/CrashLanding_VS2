@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level1.2");
         Debug.Log("Loading Level1...");
         source.PlayOneShot(continueClip);
     }

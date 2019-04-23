@@ -65108,11 +65108,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 793794808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a78daae1711e97e46a0d9276f0b4e26a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fc86d98f529015419a115a087a7af90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinCanvas: {fileID: 0}
-  WinScreenUI: {fileID: 0}
 --- !u!136 &793794810
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -65121,7 +65119,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793794808}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 1

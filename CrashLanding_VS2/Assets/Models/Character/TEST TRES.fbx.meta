@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 7006ed6de8727aa4fbffaac7a2d778b8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: charModel:Chest_CTRL
+    100002: charModel:Head_CTRL
+    100004: charModel:Head_J
+    100006: charModel:HeadTip_J
+    100008: charModel:Hip_CTRL
+    100010: charModel:Hip_J
+    100012: charModel:L_Clavicle_J
+    100014: charModel:L_Elbow_J
+    100016: charModel:L_Foot_CTRL
+    100018: charModel:L_Foot_J
+    100020: charModel:L_Knee
+    100022: charModel:L_Knee_J
+    100024: charModel:L_LegTop_J
+    100026: charModel:L_Shoulder_J
+    100028: charModel:L_Toe_J
+    100030: charModel:L_ToeTip_J
+    100032: charModel:L_Wrist_CTRL
+    100034: charModel:L_Wrist_J
+    100036: charModel:Master_CTRL
+    100038: charModel:Neck_J
+    100040: charModel:R_Clavicle_J
+    100042: charModel:R_Elbow_J
+    100044: charModel:R_Foot_CTRL
+    100046: charModel:R_Foot_J
+    100048: charModel:R_Knee
+    100050: charModel:R_Knee_J
+    100052: charModel:R_LegTop_J
+    100054: charModel:R_Shoulder_J
+    100056: charModel:R_Toe_J
+    100058: charModel:R_ToeTip_J
+    100060: charModel:R_Wrist_CTRL
+    100062: charModel:R_Wrist_J
+    100064: charModel:Spine01_J
+    100066: charModel:Spine02_J
+    100068: charModel:Spine_Curve
+    100070: ik_L_Arm
+    100072: ik_L_Leg
+    100074: ik_R_Arm
+    100076: ik_R_Leg
+    100078: ik_Spine
+    100080: rayGun2:gun_2
+    100082: ROSEMARY
+    100084: Spine_Curve
+    100086: //RootNode
+    100088: transform195
+    400000: charModel:Chest_CTRL
+    400002: charModel:Head_CTRL
+    400004: charModel:Head_J
+    400006: charModel:HeadTip_J
+    400008: charModel:Hip_CTRL
+    400010: charModel:Hip_J
+    400012: charModel:L_Clavicle_J
+    400014: charModel:L_Elbow_J
+    400016: charModel:L_Foot_CTRL
+    400018: charModel:L_Foot_J
+    400020: charModel:L_Knee
+    400022: charModel:L_Knee_J
+    400024: charModel:L_LegTop_J
+    400026: charModel:L_Shoulder_J
+    400028: charModel:L_Toe_J
+    400030: charModel:L_ToeTip_J
+    400032: charModel:L_Wrist_CTRL
+    400034: charModel:L_Wrist_J
+    400036: charModel:Master_CTRL
+    400038: charModel:Neck_J
+    400040: charModel:R_Clavicle_J
+    400042: charModel:R_Elbow_J
+    400044: charModel:R_Foot_CTRL
+    400046: charModel:R_Foot_J
+    400048: charModel:R_Knee
+    400050: charModel:R_Knee_J
+    400052: charModel:R_LegTop_J
+    400054: charModel:R_Shoulder_J
+    400056: charModel:R_Toe_J
+    400058: charModel:R_ToeTip_J
+    400060: charModel:R_Wrist_CTRL
+    400062: charModel:R_Wrist_J
+    400064: charModel:Spine01_J
+    400066: charModel:Spine02_J
+    400068: charModel:Spine_Curve
+    400070: ik_L_Arm
+    400072: ik_L_Leg
+    400074: ik_R_Arm
+    400076: ik_R_Leg
+    400078: ik_Spine
+    400080: rayGun2:gun_2
+    400082: ROSEMARY
+    400084: Spine_Curve
+    400086: //RootNode
+    400088: transform195
+    2100000: threeToneBrightnessShader
+    2100002: shadedBrightnessShader
+    2100004: threeToneBrightnessShader3
+    2100006: threeToneBrightnessShader1
+    2100008: shadedBrightnessShader1
+    2100010: threeToneBrightnessShader2
+    2100012: solidShader
+    2100014: shadedBrightnessShader2
+    2100016: charModel_threeToneBrightnessShader1
+    2100018: charModel_threeToneBrightnessShader4
+    2100020: rayGun2_gun2
+    2100022: rayGun2_gun2_point
+    2100024: rayGun2_gun2_details
+    2300000: ROSEMARY
+    3300000: ROSEMARY
+    4300000: ROSEMARY
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 120
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

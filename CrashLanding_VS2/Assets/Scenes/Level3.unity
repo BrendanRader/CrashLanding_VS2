@@ -319,7 +319,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8426e3cf7b4ea424790dfd2977c5aad3, type: 2}
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
 --- !u!1 &45432470
@@ -1017,7 +1017,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8426e3cf7b4ea424790dfd2977c5aad3, type: 2}
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
 --- !u!1 &148156790
@@ -3447,7 +3447,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8426e3cf7b4ea424790dfd2977c5aad3, type: 2}
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
 --- !u!1 &397441667
@@ -9696,7 +9696,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8426e3cf7b4ea424790dfd2977c5aad3, type: 2}
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
 --- !u!1 &1610244493 stripped
@@ -9768,7 +9768,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610244493}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 9.181199
   m_Height: 18.362396

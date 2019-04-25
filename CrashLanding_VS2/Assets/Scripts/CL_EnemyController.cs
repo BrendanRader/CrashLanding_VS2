@@ -7,19 +7,20 @@ public class CL_EnemyController : MonoBehaviour
 {
     private Animator animator;
 
+    [SerializeField]
+    private int damage = 10;
+
     public float lookRadius = 10f;
 
     Transform target;
     NavMeshAgent agent;
 
-    [SerializeField]
-    [Range(1, 10)]
-    private int damage = 1;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<Animator>();
+        //gameObject.GetComponent<Animator>();
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -32,6 +33,7 @@ public class CL_EnemyController : MonoBehaviour
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
+
 
             if (distance <= agent.stoppingDistance)
             {
@@ -50,11 +52,9 @@ public class CL_EnemyController : MonoBehaviour
 
     void attack()
     {
-        //trigger slap animation here
+        //Call Animation Here!!!!!
 
-        var health = target.GetComponent<CL_PlayerHealth>();
-        if (health != null)
-            health.TakeDamage(damage);
+        target.GetComponent<CL_PlayerHealth>().TakeDamage(damage);
     }
 
     void OnDrawGizmosSelected()

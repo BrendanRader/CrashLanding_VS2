@@ -6,6 +6,8 @@ using UnityEngine.AI;
 public class CL_EnemyController : MonoBehaviour
 {
     public Animator animator;
+    public float attackSpeed = 1f;
+    private float attackCooldown = 0f;
 
     [SerializeField]
     private int damage = 10;
@@ -28,19 +30,21 @@ public class CL_EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        attackCooldown -= Time.deltaTime;
         float distance = Vector3.Distance(target.position, transform.position);
 
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
 
-
-            if (distance <= agent.stoppingDistance)
-            {
-                attack();
+          //  if (distance <= agent.stoppingDistance)
                 FaceTarget();
-            }
-        }
+                animator.SetTrigger ("slap");
+                if(attackCooldown <= 0f){
+                  attack();
+                  attackCooldown = 6f/attackSpeed;
+                }
+          }
     }
 
     void FaceTarget()
@@ -52,8 +56,6 @@ public class CL_EnemyController : MonoBehaviour
 
     void attack()
     {
-        animator.SetTrigger ("slap");
-
         target.GetComponent<CL_PlayerHealth>().TakeDamage(damage);
     }
 

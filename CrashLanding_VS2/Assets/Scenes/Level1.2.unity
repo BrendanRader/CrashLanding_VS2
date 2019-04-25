@@ -119808,6 +119808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1610244495}
+  attackSpeed: 1
   damage: 10
   lookRadius: 16.67
 --- !u!114 &1525628907
@@ -119852,7 +119853,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 68
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

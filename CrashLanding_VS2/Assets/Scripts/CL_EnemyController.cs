@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class CL_EnemyController : MonoBehaviour
 {
-    private Animator animator;
+    public Animator animator;
 
     [SerializeField]
     private int damage = 10;
@@ -15,12 +15,12 @@ public class CL_EnemyController : MonoBehaviour
     Transform target;
     NavMeshAgent agent;
 
-    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        //gameObject.GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -52,7 +52,7 @@ public class CL_EnemyController : MonoBehaviour
 
     void attack()
     {
-        //Call Animation Here!!!!!
+        animator.SetTrigger ("slap");
 
         target.GetComponent<CL_PlayerHealth>().TakeDamage(damage);
     }

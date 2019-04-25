@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -119807,6 +119807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f9f4b613cbe00146b96f84ad82e3390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1610244495}
   damage: 10
   lookRadius: 16.67
 --- !u!114 &1525628907
@@ -125187,6 +125188,12 @@ CapsuleCollider:
   m_Height: 15.83
   m_Direction: 1
   m_Center: {x: 0, y: 7.6, z: 3.75}
+--- !u!95 &1610244495 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1610244492}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1610244500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4,

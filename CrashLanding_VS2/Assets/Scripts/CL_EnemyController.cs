@@ -32,19 +32,23 @@ public class CL_EnemyController : MonoBehaviour
     {
         attackCooldown -= Time.deltaTime;
         float distance = Vector3.Distance(target.position, transform.position);
-
+        
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
+            
 
-          //  if (distance <= agent.stoppingDistance)
+            if (distance <= agent.stoppingDistance)
+            {
                 FaceTarget();
-                animator.SetTrigger ("slap");
-                if(attackCooldown <= 0f){
-                  attack();
-                  attackCooldown = 6f/attackSpeed;
+                animator.SetTrigger("slap");
+                if (attackCooldown <= 0f)
+                {
+                    attack();
+                    attackCooldown = 6f / attackSpeed;
                 }
-          }
+            }
+        }
     }
 
     void FaceTarget()

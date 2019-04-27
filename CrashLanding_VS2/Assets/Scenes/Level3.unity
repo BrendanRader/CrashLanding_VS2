@@ -13336,6 +13336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392350864}
   - component: {fileID: 1392350863}
+  - component: {fileID: 1392350865}
   m_Layer: 0
   m_Name: Turret (Combined and Separated)
   m_TagString: Untagged
@@ -13385,6 +13386,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -20.14, z: -90.00001}
+--- !u!114 &1392350865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392350862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298de9fa77f87da42befbd55bc217152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 30
+  currentHealth: 0
 --- !u!1 &1394142930
 GameObject:
   m_ObjectHideFlags: 0
@@ -14400,6 +14415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601343030}
   - component: {fileID: 1601343029}
+  - component: {fileID: 1601343031}
   m_Layer: 0
   m_Name: Turret (Combined and Separated) (1)
   m_TagString: Untagged
@@ -14449,6 +14465,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 115.36001, z: -90.00001}
+--- !u!114 &1601343031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601343028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298de9fa77f87da42befbd55bc217152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 30
+  currentHealth: 0
 --- !u!1 &1602005218
 GameObject:
   m_ObjectHideFlags: 0
@@ -14907,6 +14937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b431ab31d3bb4408ec8789016c5e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &1612177750
 GameObject:
   m_ObjectHideFlags: 0
@@ -16266,6 +16297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b431ab31d3bb4408ec8789016c5e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!136 &1824963027
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16367,6 +16399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b431ab31d3bb4408ec8789016c5e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &1841244370
 GameObject:
   m_ObjectHideFlags: 0
@@ -18007,6 +18040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b431ab31d3bb4408ec8789016c5e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!136 &1947026470
 CapsuleCollider:
   m_ObjectHideFlags: 0

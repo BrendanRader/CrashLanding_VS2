@@ -56891,7 +56891,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 2.67, z: 0}
+  m_Center: {x: 0, y: 2.33, z: 0}
 --- !u!4 &707823020
 Transform:
   m_ObjectHideFlags: 0
@@ -119899,7 +119899,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 2.5
-  m_Height: 11.69
+  m_Height: 12.02
   m_Direction: 1
   m_Center: {x: 0, y: 6.84, z: 0}
 --- !u!1 &1547717978

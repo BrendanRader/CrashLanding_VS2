@@ -10,11 +10,12 @@ public class CollectItem : MonoBehaviour {
     Animator animator;
     bool doorOpen;
 
-    public ParticleSystem particle;
+    public GameObject particle;
 
     void Awake() {
         collected++;
         doorOpen = false;
+        particle.SetActive(false);
         animator = GameObject.Find("DoorParent").GetComponent<Animator>();
     }
 
@@ -27,8 +28,8 @@ public class CollectItem : MonoBehaviour {
 
             if(collected == 0){
               doorOpen = true;
-              particle.Play();
-              Doors ("Open");
+              particle.SetActive(true);
+                Doors ("Open");
             }
         }
     }

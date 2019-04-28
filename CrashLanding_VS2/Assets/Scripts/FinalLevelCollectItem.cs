@@ -7,10 +7,12 @@ public class FinalLevelCollectItem : MonoBehaviour {
     public Item item;
     public static int collected = 0;
     public GameObject WinCollider;
+    public GameObject particle;
 
     void Awake() {
         collected++;
         WinCollider.SetActive(false);
+        particle.SetActive(false);
     }
 
     void OnTriggerEnter(Collider plyr) {
@@ -22,6 +24,7 @@ public class FinalLevelCollectItem : MonoBehaviour {
 
             if(collected == 0){
               WinCollider.SetActive(true);
+              particle.SetActive(true);
             }
         }
     }

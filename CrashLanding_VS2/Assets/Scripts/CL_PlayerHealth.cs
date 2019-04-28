@@ -13,6 +13,8 @@ public class CL_PlayerHealth : MonoBehaviour
 
     public Slider HealthBar;
 
+    public ParticleSystem death;
+
     //reset health when enabled
     private void OnEnable()
     {
@@ -28,7 +30,11 @@ public class CL_PlayerHealth : MonoBehaviour
         HealthBar.value = currentHealth;
 
         if (currentHealth <= 0)
+        {
             Die();
+            death.Play();
+        }
+
     }
 
     private void Die()

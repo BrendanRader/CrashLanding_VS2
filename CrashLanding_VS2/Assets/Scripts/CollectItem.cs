@@ -10,6 +10,8 @@ public class CollectItem : MonoBehaviour {
     Animator animator;
     bool doorOpen;
 
+    public ParticleSystem particle;
+
     void Awake() {
         collected++;
         doorOpen = false;
@@ -25,6 +27,7 @@ public class CollectItem : MonoBehaviour {
 
             if(collected == 0){
               doorOpen = true;
+              particle.Play();
               Doors ("Open");
             }
         }

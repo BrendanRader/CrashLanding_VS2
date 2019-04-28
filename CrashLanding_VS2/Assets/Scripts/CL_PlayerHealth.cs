@@ -13,13 +13,14 @@ public class CL_PlayerHealth : MonoBehaviour
 
     public Slider HealthBar;
 
-    public ParticleSystem death;
+    public GameObject death;
 
     //reset health when enabled
     private void OnEnable()
     {
         currentHealth = startHealth;
         HealthBar.value = startHealth;
+        death.SetActive(false);
     }
 
     //Method to take damage
@@ -32,7 +33,7 @@ public class CL_PlayerHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
-            death.Play();
+            death.SetActive(true);
         }
 
     }

@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Environmental Artist\r\nConcept/Texture Artist\r\nAnimator\r\nConcept Artist/Coder\r\nProp
+  m_Text: "Level Designer\nConcept/Texture Artist\r\nAnimator\r/Audio\nConcept Artist/UI\nEnvironmental
     Artist\r\nCharacter Artist"
 --- !u!222 &4956520
 CanvasRenderer:
@@ -639,7 +639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Environmental Artist\r\nConcept/Texture Artist\r\nAnimator\r\nConcept Artist/Coder\r\nProp
+  m_Text: "Level Designer\nConcept/Texture Artist\r\nAnimator\r/Audio\nConcept Artist/UI\nEnvironmental
     Artist\r\nCharacter Artist"
 --- !u!222 &1207128945
 CanvasRenderer:

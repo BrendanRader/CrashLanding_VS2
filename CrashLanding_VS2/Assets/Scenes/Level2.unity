@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 8680243}
   - component: {fileID: 8680242}
   - component: {fileID: 8680241}
+  - component: {fileID: 8680245}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: enemy
@@ -337,6 +338,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 59.341003, z: 0}
+--- !u!114 &8680245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8680240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298de9fa77f87da42befbd55bc217152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 100
+  currentHealth: 0
 --- !u!4 &10310688 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7186adebba45254a933d8f2b7696a2f,
@@ -61731,10 +61746,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ROBO CUTTER '
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -61779,6 +61790,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 13700000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

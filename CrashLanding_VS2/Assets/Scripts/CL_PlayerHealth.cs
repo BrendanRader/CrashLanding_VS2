@@ -13,11 +13,14 @@ public class CL_PlayerHealth : MonoBehaviour
 
     public Slider HealthBar;
 
+    public GameObject death;
+
     //reset health when enabled
     private void OnEnable()
     {
         currentHealth = startHealth;
         HealthBar.value = startHealth;
+        death.SetActive(false);
     }
 
     //Method to take damage
@@ -28,7 +31,11 @@ public class CL_PlayerHealth : MonoBehaviour
         HealthBar.value = currentHealth;
 
         if (currentHealth <= 0)
+        {
             Die();
+            death.SetActive(true);
+        }
+
     }
 
     private void Die()

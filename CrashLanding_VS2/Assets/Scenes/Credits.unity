@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Environmental Artist\r\nConcept/Texture Artist\r\nAnimator\r\nConcept Artist/Coder\r\nProp
+  m_Text: "Level Designer\nConcept/Texture Artist\r\nAnimator\r/Audio\nConcept Artist/UI\nEnvironmental
     Artist\r\nCharacter Artist"
 --- !u!222 &4956520
 CanvasRenderer:
@@ -639,7 +639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Environmental Artist\r\nConcept/Texture Artist\r\nAnimator\r\nConcept Artist/Coder\r\nProp
+  m_Text: "Level Designer\nConcept/Texture Artist\r\nAnimator\r/Audio\nConcept Artist/UI\nEnvironmental
     Artist\r\nCharacter Artist"
 --- !u!222 &1207128945
 CanvasRenderer:
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1596392449}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1466144419

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6894,7 +6894,7 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1990286809}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &216738309
@@ -29161,7 +29161,7 @@ GameObject:
   - component: {fileID: 1019470511}
   m_Layer: 0
   m_Name: Enemy A
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35526,7 +35526,7 @@ GameObject:
   - component: {fileID: 1322264380}
   m_Layer: 0
   m_Name: Enemy C
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42209,7 +42209,7 @@ GameObject:
   - component: {fileID: 1522592396}
   m_Layer: 0
   m_Name: Enemy B
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54415,7 +54415,7 @@ GameObject:
   - component: {fileID: 1747519537}
   m_Layer: 0
   m_Name: Enemy D
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62368,9 +62368,10 @@ GameObject:
   - component: {fileID: 1964427065}
   - component: {fileID: 1964427064}
   - component: {fileID: 1964427063}
+  - component: {fileID: 1964427067}
   m_Layer: 0
   m_Name: PlayerManager
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62439,6 +62440,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964427067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964427062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1941ee0b94197c34880ec41f41dbef46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  partToRotate: {fileID: 1964427066}
+  lookSpeed: 10
+  range: 20
+  playerTag: enemy
 --- !u!1 &1975801684
 GameObject:
   m_ObjectHideFlags: 0

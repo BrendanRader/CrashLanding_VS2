@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5706,8 +5706,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99635318}
-  m_LocalRotation: {x: 0.16580153, y: 0.12835738, z: -0.021702712, w: 0.97752917}
-  m_LocalPosition: {x: 89.095665, y: -26.335098, z: -12.256362}
+  m_LocalRotation: {x: -0.26232615, y: 0.49849942, z: -0.15739928, w: -0.8111157}
+  m_LocalPosition: {x: 59.65777, y: 55.217728, z: -48.80787}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1849045042}
@@ -5728,9 +5728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotationSensitivity: 70
   yMinAngle: -45
-  yMaxAngle: 45
-  xMinAngle: -45
-  xMaxAngle: 45
+  yMaxAngle: 60
+  xMinAngle: -70
+  xMaxAngle: 0
 --- !u!1001 &109095823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7529,7 +7529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180216055}
   m_LocalRotation: {x: -0.035014644, y: 0.9109714, z: -0.07920191, w: -0.4032768}
-  m_LocalPosition: {x: 65.338684, y: -64.34303, z: 78.36213}
+  m_LocalPosition: {x: 61.44, y: -57.25, z: 74.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 282428842}
@@ -7552,7 +7552,7 @@ MonoBehaviour:
   yMinAngle: -45
   yMaxAngle: 45
   xMinAngle: -200
-  xMaxAngle: -120
+  xMaxAngle: -105
 --- !u!1001 &183076380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23266,8 +23266,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268044788}
-  m_LocalRotation: {x: 0.17702524, y: 0.6217356, z: -0.14703509, w: 0.7486573}
-  m_LocalPosition: {x: -77.63778, y: -41.388947, z: 1.0745373}
+  m_LocalRotation: {x: -0.31924236, y: 0.03015405, z: -0.006889399, w: -0.9471683}
+  m_LocalPosition: {x: 11.439207, y: -19.409927, z: -67.685745}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1602005219}
@@ -23288,9 +23288,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotationSensitivity: 70
   yMinAngle: -45
-  yMaxAngle: 45
-  xMinAngle: 30
-  xMaxAngle: 120
+  yMaxAngle: 60
+  xMinAngle: -90
+  xMaxAngle: 70
 --- !u!4 &269292427 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7186adebba45254a933d8f2b7696a2f,
@@ -25020,8 +25020,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367311871}
-  m_LocalRotation: {x: -0.14633106, y: 0.37697917, z: -0.060477797, w: -0.91258776}
-  m_LocalPosition: {x: 64.520386, y: -64.31993, z: -51.22966}
+  m_LocalRotation: {x: -0.15407258, y: 0.7465184, z: -0.18000545, w: -0.6217476}
+  m_LocalPosition: {x: 75.89697, y: -53.972076, z: -21.396378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1842350805}
@@ -25042,7 +25042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotationSensitivity: 70
   yMinAngle: -45
-  yMaxAngle: 45
+  yMaxAngle: 55
   xMinAngle: -100
   xMaxAngle: 35
 --- !u!1 &368864537
@@ -43977,8 +43977,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711473904}
-  m_LocalRotation: {x: 0.046912983, y: 0.921498, z: -0.3671971, w: 0.11750294}
-  m_LocalPosition: {x: -19.822468, y: 42.518143, z: 78.71103}
+  m_LocalRotation: {x: 0.05069389, y: -0.94772834, z: 0.26580435, w: 0.1690835}
+  m_LocalPosition: {x: 29.013786, y: 53.570923, z: 73.39477}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1919452477}
@@ -44000,8 +44000,8 @@ MonoBehaviour:
   RotationSensitivity: 70
   yMinAngle: -45
   yMaxAngle: 45
-  xMinAngle: 90
-  xMaxAngle: 210
+  xMinAngle: 80
+  xMaxAngle: 230
 --- !u!4 &711824359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7186adebba45254a933d8f2b7696a2f,
@@ -61745,10 +61745,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ROBO CUTTER '
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -61793,6 +61789,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 13700000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -94420,8 +94420,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889068936}
-  m_LocalRotation: {x: 0.023487687, y: 0.976454, z: -0.1439796, w: 0.15892094}
-  m_LocalPosition: {x: -39.340897, y: -27.69738, z: 96.84108}
+  m_LocalRotation: {x: -0.0066771423, y: 0.9563834, z: -0.2918209, w: -0.011257037}
+  m_LocalPosition: {x: 2.7041845, y: -2.1722794, z: 95.2544}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1735032005}
@@ -94442,9 +94442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotationSensitivity: 70
   yMinAngle: -45
-  yMaxAngle: 45
+  yMaxAngle: 60
   xMinAngle: 90
-  xMaxAngle: 200
+  xMaxAngle: 220
 --- !u!1001 &1890556397
 PrefabInstance:
   m_ObjectHideFlags: 0

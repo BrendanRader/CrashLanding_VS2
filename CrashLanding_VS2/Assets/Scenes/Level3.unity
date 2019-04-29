@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1987,6 +1987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ROBO CUTTER '
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2031,10 +2035,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 13700000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8389,7 +8389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 371, y: 158.99997}
+  m_AnchoredPosition: {x: 370.99994, y: 251.99994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324021067
@@ -10476,7 +10476,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529960313}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.06, y: 0.06, z: 1}
   m_Children: []
   m_Father: {fileID: 282428842}
@@ -10484,7 +10484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: 135}
+  m_AnchoredPosition: {x: 290.99994, y: 227.99998}
   m_SizeDelta: {x: 2048, y: 1448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529960315
@@ -11148,7 +11148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: 135.00005}
+  m_AnchoredPosition: {x: 290.99994, y: 228.00003}
   m_SizeDelta: {x: 2048, y: 1448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612263717
@@ -11266,7 +11266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 371.00006, y: 161.99997}
+  m_AnchoredPosition: {x: 371, y: 254.99995}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637491674
@@ -27962,7 +27962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 371.0001, y: 161.99997}
+  m_AnchoredPosition: {x: 371.00003, y: 254.99995}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978096240
@@ -28242,7 +28242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 371.0001, y: 158.99997}
+  m_AnchoredPosition: {x: 371.00003, y: 251.99995}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016285070
@@ -34751,6 +34751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ROBO CUTTER '
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -34795,10 +34799,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 13700000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -34871,7 +34871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 375.00003, y: 160.99997}
+  m_AnchoredPosition: {x: 374.99997, y: 253.99994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337524253
@@ -39711,6 +39711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ROBO CUTTER '
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -39755,10 +39759,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 13700000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -39963,7 +39963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 290.99994, y: 135.00005}
+  m_AnchoredPosition: {x: 290.99988, y: 228.00003}
   m_SizeDelta: {x: 2048, y: 1448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374608435
@@ -60257,7 +60257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 290.9999, y: 135.00005}
+  m_AnchoredPosition: {x: 290.99985, y: 228.00003}
   m_SizeDelta: {x: 2048, y: 1448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1933757543
@@ -60308,6 +60308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'ROBO CUTTER '
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 400154, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -60352,10 +60356,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 74380be48f6859046a73d0005c981ca2, type: 2}
     - target: {fileID: 13700000, guid: 911ec44661523294b94e6a39675402a4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -66268,7 +66268,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035693891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.06, y: 0.06, z: 1}
   m_Children: []
   m_Father: {fileID: 1735032005}
@@ -66276,7 +66276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 290.9999, y: 135.00003}
+  m_AnchoredPosition: {x: 290.99985, y: 228}
   m_SizeDelta: {x: 2048, y: 1448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035693893
@@ -66513,7 +66513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: 162}
+  m_AnchoredPosition: {x: 375, y: 255}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051712857
@@ -67014,7 +67014,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138907804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.06, y: 0.06, z: 1}
   m_Children: []
   m_Father: {fileID: 1602005219}
@@ -67022,7 +67022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 290.99988, y: 135.00005}
+  m_AnchoredPosition: {x: 290.99982, y: 228.00003}
   m_SizeDelta: {x: 2048, y: 1448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2138907806

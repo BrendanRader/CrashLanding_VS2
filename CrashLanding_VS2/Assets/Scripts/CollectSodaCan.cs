@@ -5,7 +5,7 @@ using UnityEngine;
 public class CollectSodaCan : MonoBehaviour {
 
     public static int sodaCans = 0;
-
+    
     void Awake() {
         sodaCans++;
     }
@@ -16,6 +16,7 @@ public class CollectSodaCan : MonoBehaviour {
             sodaCans--;
             Destroy(gameObject);
             GameObject.Find("Player").GetComponent<CL_PlayerHealth>().currentHealth = GameObject.Find("Player").GetComponent<CL_PlayerHealth>().startHealth;
+            GameObject.Find("Player").GetComponent<CL_PlayerHealth>().HealthBar.value = GameObject.Find("Player").GetComponent<CL_PlayerHealth>().startHealth;
         }
     }
 }
